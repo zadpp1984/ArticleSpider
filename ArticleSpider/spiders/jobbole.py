@@ -8,7 +8,7 @@ import hashlib
 from scrapy import Request
 
 from ArticleSpider.items import JobBoleArticleItem
-
+ 
 
 class JobboleSpider(scrapy.Spider):
     name = 'jobbole'
